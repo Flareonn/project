@@ -1,0 +1,72 @@
+.text_red
+	color: $red-color
+
+.text_white
+	font-family: "Gotham Pro - Medium"
+	color: #fff
+
+.button:hover, .collection-block__button:hover
+	box-shadow: 0 0 16px rgba(242, 72, 65, 0.39)
+	background-color: #ff1844
+	cursor: pointer
+
+.btn
+	cursor: pointer
+
+.button
+	background-color: #ff2e55
+	padding: 20px 65px
+	border: none
+	color: #ffffff
+	font-size: 18px
+	text-transform: uppercase
+	letter-spacing: 0.18px
+	outline: none
+	border: 3px solid #ff2e55
+
+.arrow_down
+	margin-left: 14px
+
+.slick-slide
+	outline: none
+
+.slider-arrow
+	top: 0
+	height: 100%
+	width: 22px
+	position: absolute
+	z-index: 99
+	&_left
+		left: 0
+		background: url(../img/main/left.png) center no-repeat
+		&_feedback
+			left: 0
+			background: url(../img/feedback/feedback__slider_left.png) center no-repeat
+			&:hover
+				cursor: pointer
+		&:hover
+			background: url(../img/main/left_hover.png) center no-repeat
+			cursor: pointer
+	&_right
+		right: 0
+		background: url(../img/main/right.png) center no-repeat
+		&_feedback
+			right: 0
+			background: url(../img/feedback/feedback__slider_right.png) center no-repeat
+			&:hover
+				cursor: pointer
+		&:hover
+			background: url(../img/main/right_hover.png) center no-repeat
+			cursor: pointer
+
+
+
+.collection-block__button
+	background-color: #f24841
+	border: none
+	padding: 15px 26px
+	color: #fff
+	font-size: 14px
+	text-transform: uppercase
+	letter-spacing: 0.14px
+	margin-bottom: 30px
